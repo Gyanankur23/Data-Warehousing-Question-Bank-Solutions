@@ -1,6 +1,6 @@
 # Data-Warehousing-Question-Bank-Solutions
 
-# 📘 Data Warehousing & DSS – Full-Length Answers (Q1–Q10)
+# 📘 Data Warehousing & DSS – Full-Length Answers (Q1–Q24)
 
 ---
 
@@ -190,6 +190,12 @@ This architecture ensures that data flows smoothly from source to insight, suppo
 ## 23. What is the purpose of a Data Warehouse in DW?
 
 The primary purpose of a Data Warehouse is to transform raw, disorganized data from multiple sources into structured, actionable insights that support strategic decision-making. In a typical organization, data is generated from production systems, backups, internal spreadsheets, and external feeds. This data is often messy, inconsistent, and difficult to analyze. A data warehouse consolidates this information into a centralized repository, cleanses and organizes it through the ETL process, and presents it in a format tailored to business users. It enables historical analysis, trend forecasting, and performance benchmarking across departments. For example, an HR data mart within the warehouse might provide insights into employee turnover, while a finance mart supports budget planning. The warehouse also supports incremental loading, ensuring that new data is continuously integrated. Ultimately, the data warehouse empowers managers and executives to make informed decisions by providing a reliable, comprehensive view of organizational data.
+
+---
+
+## 24. What is the purpose of ETL in Data Warehouse?
+
+The purpose of ETL (Extract, Transform, Load) in a data warehouse is to serve as the fundamental process that prepares and moves data from multiple heterogeneous sources into a centralized repository where it can be effectively analyzed for business insights. In the Extract stage, relevant data is collected from a variety of sources such as operational databases, ERP systems, CRM systems, flat files, APIs, or even real-time streams. This data often exists in different formats, structures, and platforms, which makes extraction the first critical step to bring it into a common workflow. The Transform stage is where the raw extracted data is cleansed, validated, standardized, and enriched according to business rules. This includes removing duplicates, correcting inconsistencies, dealing with missing or incomplete data, converting data into a unified format, aggregating values, creating calculated fields, and ensuring compliance with data quality standards. This stage also handles integration—combining data from different sources to provide a complete, single version of the truth. Finally, the Load stage involves inserting or updating the transformed data into the data warehouse in a structured and optimized format, typically in dimension and fact tables for analytical processing. ETL ensures that the data warehouse contains accurate, consistent, and reliable information, enabling faster query performance and supporting advanced analytics, dashboards, and business intelligence reporting. Without ETL, the data warehouse would contain unprocessed, inconsistent, and unreliable data, making strategic decision-making less effective and potentially error-prone. In essence, ETL is the backbone of a data warehouse, bridging the gap between raw operational data and actionable business insights.
 
 ---
 
